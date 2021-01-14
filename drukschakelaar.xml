@@ -1,0 +1,6 @@
+<systeembord>
+  <element name="Switch" id="Switch0" x="79" y="56"/>
+  <element name="LED" id="LED0" x="309" y="56">
+    <link id="input" toElement="Switch0" toNode="output"/>
+  </element>
+</systeembord>
