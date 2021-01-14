@@ -1,0 +1,6 @@
+<systeembord>
+  <element name="SoundSensor" id="SoundSensor0" x="0" y="0"/>
+  <element name="DigitalVoltmeter" id="DigitalVoltmeter0" x="226" y="1">
+    <link id="input" toElement="SoundSensor0" toNode="output"/>
+  </element>
+</systeembord>
