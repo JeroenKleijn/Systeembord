@@ -19,7 +19,7 @@
   <element name="TextElement" id="TextElement1" x="742" y="130" text="(0 of 1) x 2^2 = 4" scaleX="1.46" scaleY="1.46" width="158"/>
   <element name="TextElement" id="TextElement2" x="747" y="206" text="(0 of 1) x 2^1 = 2" scaleX="1.39" scaleY="1.39" width="159"/>
   <element name="TextElement" id="TextElement3" x="747" y="276" text="(0 of 1) x 2^0 = 1" scaleX="1.37" scaleY="1.37" width="163"/>
-  <element name="TextElement" id="TextElement4" x="238" y="406" text="Dit is een 4-bits omzetter: 16 vakjes van 5/16 = 0,3125 V" scaleX="1.00" scaleY="1.00" width="942"/>
-  <element name="TextElement" id="TextElement5" x="300" y="456" text="4,1 V invoerspanning komt dus in vakje 4,1/0,3125 = 13,11 = 14 --&gt; Dat is dus binair 1101 (controleer dit met de bovenstaande schakeling)" scaleX="1.00" scaleY="1.00" width="1290"/>
+  <element name="TextElement" id="TextElement4" x="27" y="383" text="Dit is een 4-bits omzetter: 16 vakjes van 5/16 = 0,3125 V" scaleX="1.00" scaleY="1.00" width="942"/>
+  <element name="TextElement" id="TextElement5" x="62" y="433" text="4,1 V invoerspanning komt dus in vakje 4,1/0,3125 = 13,11 = 14 --&gt; Dat is dus binair 1101 (controleer dit met de bovenstaande schakeling)" scaleX="1.00" scaleY="1.00" width="1290"/>
   <element name="TextElement" id="TextElement6" x="906" y="304" text="_________ +&#10;.................." scaleX="1.00" scaleY="1.00" width="150"/>
 </systeembord>
