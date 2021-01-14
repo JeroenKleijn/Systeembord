@@ -1,0 +1,6 @@
+<systeembord>
+  <element name="VarVoltage" id="VarVoltage0" x="0" y="0" inputValue="2.0"/>
+  <element name="Voltmeter" id="Voltmeter0" x="213" y="0">
+    <link id="input" toElement="VarVoltage0" toNode="output"/>
+  </element>
+</systeembord>
