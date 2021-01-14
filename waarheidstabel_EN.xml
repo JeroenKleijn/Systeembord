@@ -1,0 +1,17 @@
+<systeembord>
+  <element name="Switch" id="Switch0" x="1" y="120"/>
+  <element name="Switch" id="Switch1" x="1" y="1"/>
+  <element name="LED" id="LED0" x="1" y="51">
+    <link id="input" toElement="Switch1" toNode="output"/>
+  </element>
+  <element name="LED" id="LED1" x="1" y="164">
+    <link id="input" toElement="Switch0" toNode="output"/>
+  </element>
+  <element name="ANDPort" id="ANDPort0" x="206" y="64">
+    <link id="input1" toElement="Switch1" toNode="output"/>
+    <link id="input2" toElement="Switch0" toNode="output"/>
+  </element>
+  <element name="Buzzer" id="Buzzer0" x="376" y="88">
+    <link id="input" toElement="ANDPort0" toNode="output"/>
+  </element>
+</systeembord>

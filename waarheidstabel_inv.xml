@@ -1,0 +1,12 @@
+<systeembord>
+  <element name="Switch" id="Switch1" x="1" y="1"/>
+  <element name="LED" id="LED0" x="1" y="51">
+    <link id="input" toElement="Switch1" toNode="output"/>
+  </element>
+  <element name="Buzzer" id="Buzzer0" x="365" y="1">
+    <link id="input" toElement="NOTPort0" toNode="output"/>
+  </element>
+  <element name="NOTPort" id="NOTPort0" x="184" y="1">
+    <link id="input" toElement="Switch1" toNode="output"/>
+  </element>
+</systeembord>
