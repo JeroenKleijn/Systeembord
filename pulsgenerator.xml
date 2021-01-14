@@ -1,0 +1,6 @@
+<systeembord>
+  <element name="Pulse" id="Pulse0" x="0" y="0" inputValue="2.0"/>
+  <element name="LED" id="LED0" x="212" y="0">
+    <link id="input" toElement="Pulse0" toNode="output"/>
+  </element>
+</systeembord>
